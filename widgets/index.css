@@ -1,0 +1,94 @@
+@import url("./reset.css");
+
+body {
+  background-color: white;
+}
+
+
+.components {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.content-container {
+  width: 40%;
+}
+
+.clock-header {
+  display: flex;
+  padding: 20px 0px 10px 0px;
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+}
+
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  background-color: goldenrod;
+  border: 2px solid black;
+  box-shadow: 5px 4px 5px grey;
+}
+
+.clock-container ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.time, .date {
+  display: flex;
+  padding: 20px 30px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 24px; 
+}
+
+.tabs-container {
+  width: 100px;
+  display: flex;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.tabs-container h1 {
+  background-color: forestgreen;
+  width: 100px;
+  border-radius: 10px 10px 0px 0px;
+  border-width: 2px 2px 0px 2px;
+  border-color: black;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0px;
+}
+
+.tabs-container :nth-child(2) h1{
+  margin-left: 100px;
+}
+
+.tabs-container :nth-child(3) h1{
+  margin-left: 200px;
+}
+
+.tabs-container article {
+  background-color: forestgreen;
+  width: 300px;
+  height: 250px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 4px 5px grey;
+}
+
+.tabs-container div {
+  position: absolute;
+}
+
+.hide{
+  display: none;
+  height: auto;
+}
